@@ -1,0 +1,24 @@
+{
+  "name": "rs3-discord-achievements",
+  "version": "0.0.1",
+  "description": "Relays RS3 Player information to Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mx772/RS3-discord-Achievements.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mx772/RS3-discord-Achievements/issues"
+  },
+  "homepage": "https://github.com/Mx772/RS3-discord-Achievements#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "discord.js": "^12.5.1",
+    "request-promise": "^4.2.6"
+  }
+}
