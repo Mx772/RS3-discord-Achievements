@@ -1,6 +1,8 @@
 const request = require("request-promise");
 const cheerio = require("cheerio");
 const config = require("./config.json")
+const discord = require('./discord/relay')
+const c = require('./util/defClasses')
 
 module.exports = {
     getProfile,
@@ -48,7 +50,7 @@ async function getActivity(user) {
 }
 
 // getProfile()
-getClanUsers()
-async function fillClanUsers()
+// getClanUsers()
+// async function fillClanUsers()
 
 // Parse
